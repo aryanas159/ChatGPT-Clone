@@ -20,6 +20,7 @@ function App() {
     })
     setres(response.data.choices[0].text)
     setSpinning(false)
+    console.log(process.env.REACT_APP_OPENAI_API_KEY)
   }
 
   return (
